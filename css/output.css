@@ -652,6 +652,10 @@ h1 {
   font-size: 4rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-orange-200 {
   --text-opacity: 1;
   color: #feebc8;
