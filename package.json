@@ -7,6 +7,7 @@
   "author": "Cory Evan Wright <coryevan@gmail.com>",
   "scripts": {
     "build": "parcel build index.html",
+    "buildcss": "NODE_ENV=production npx tailwindcss build css/main.css -o css/output.css -c tailwind.config.js",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
