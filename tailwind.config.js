@@ -8,7 +8,11 @@ module.exports = {
 		content: ['*.html']
 	},
 	theme: {
-		extend: {},
+		extend: {
+			fontSize: {
+				'huge': '8rem',
+			},
+		},
 	},
 	variants: {},
 	plugins: [],

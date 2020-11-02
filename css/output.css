@@ -586,8 +586,12 @@ video {
   height: auto;
 }
 
+html, body {
+  font-family: 'Vollkorn', serif;
+}
+
 h1 {
-  font-family: 'hello_star';
+  font-family: 'hello_star', cursive;
 }
 
 .container {
@@ -648,8 +652,12 @@ h1 {
   height: 100vh;
 }
 
-.text-6xl {
-  font-size: 4rem;
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-huge {
+  font-size: 8rem;
 }
 
 .text-center {
@@ -660,6 +668,10 @@ h1 {
   --text-opacity: 1;
   color: #feebc8;
   color: rgba(254, 235, 200, var(--text-opacity));
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 @-webkit-keyframes spin {
