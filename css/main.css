@@ -13,7 +13,7 @@
 
 @layer base {
 	html, body {
-		font-family: 'Vollkorn', serif;
+		font-family: 'Nunito', sans-serif;
 	}
 	h1 {
 		font-family: 'hello_star', cursive;
