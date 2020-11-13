@@ -6,7 +6,7 @@
 	"license": "(MIT AND CC-BY-4.0)",
 	"author": "Cory Evan Wright <coryevan@gmail.com>",
 	"scripts": {
-		"dev": "cross-env parcel src/index.html",
+		"dev": "cross-env parcel src/index.html --no-cache",
 		"build": "cross-env NODE_ENV=production parcel build src/*.html -d docs --log-level 4 --no-cache --no-content-hash"
 	},
 	"devDependencies": {
