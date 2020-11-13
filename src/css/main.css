@@ -11,19 +11,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Secret Society';
-    src: url('fonts/SecretSociety-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Secret Society';
-    src: url('fonts/SecretSociety-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
 @layer base {
 	html, body {
 		font-family: 'Nunito', sans-serif;
