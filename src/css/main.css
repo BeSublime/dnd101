@@ -14,6 +14,9 @@
 	html, body {
 		font-family: 'Nunito', sans-serif;
 	}
+	body {
+		background-image: url('../img/asphalt.png');
+	}
 	h1 {
 		font-family: 'hello_star', cursive;
 	}
