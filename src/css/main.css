@@ -4,14 +4,13 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
-@font-face {
-    font-family: 'hello_star';
-    src: url('fonts/Hello-Star.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @layer base {
+	@font-face {
+		font-family: 'hello_star';
+		src: url('fonts/Hello-Star.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
 	html, body {
 		font-family: 'Nunito', sans-serif;
 	}
