@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+	Writing, design, & development: Cory Evan Wright
+	Twitter: @BeSublime
 
 # THANKS
 
-    <name>
+    Mike Hearn & Atle Mo for the background texture from transparenttextures.com
+	Zach Wilkinson & Thora Ford for the Skull graphic from the Secret Society font
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    HTML5 Boilerplate, Tailwind CSS, Normalize.css
