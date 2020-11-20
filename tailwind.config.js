@@ -12,6 +12,9 @@ module.exports = {
 			fontSize: {
 				'huge': '8rem',
 			},
+			gridTemplateColumns: {
+				'main': '9fr 3fr',
+			}
 		},
 	},
 	variants: {},

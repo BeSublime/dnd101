@@ -21,3 +21,16 @@
 		font-family: 'hello_star', cursive;
 	}
 }
+
+@layer components {
+	.content > section {
+		@apply p-6;
+
+	}
+	.content > aside {
+		@apply border-orange-200 border-4 p-6 m-4;
+		@screen sm {
+			@apply m-0;
+		}
+	}
+}
